@@ -1,0 +1,48 @@
+CRITICAL - 2022-02-03 20:39:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-03 20:46:21 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2022-02-03 20:46:21 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2022-02-03 20:46:21 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(40): CodeIgniter\BaseModel->paginate(10, 'ticket')
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#8 {main}
+ERROR - 2022-02-03 20:58:12 --> Not unique table/alias: 'ticket'
+ERROR - 2022-02-03 20:58:24 --> Not unique table/alias: 'ticket'
+ERROR - 2022-02-03 20:58:38 --> Not unique table/alias: 'ticket'
+ERROR - 2022-02-03 20:59:51 --> Not unique table/alias: 'ticket'
+ERROR - 2022-02-03 20:59:59 --> Not unique table/alias: 'ticket'
+ERROR - 2022-02-03 21:00:40 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2022-02-03 21:00:40 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2022-02-03 21:00:40 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(40): CodeIgniter\BaseModel->paginate(10, 'ticket')
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#8 {main}
+ERROR - 2022-02-03 21:01:20 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2022-02-03 21:01:20 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2022-02-03 21:01:20 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(40): CodeIgniter\BaseModel->paginate(10, 'ticket')
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#8 {main}

@@ -1,0 +1,353 @@
+CRITICAL - 2022-01-16 05:13:32 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:18:03 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:18:05 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:38 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:39 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:40 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:40 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:40 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:40 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:41 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:41 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:41 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:41 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:42 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:42 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:42 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:43 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:43 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:43 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:43 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:43 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:43 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:44 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:44 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:21:44 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:23:52 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:23:53 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:23:54 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:23:57 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-16 05:25:48 --> Class "app\Models\M_Ticket" not found
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-01-16 05:30:59 --> Error connecting to the database: Unknown database 'helpdesk-lpc1'
+CRITICAL - 2022-01-16 05:30:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'helpdesk-lpc1'
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(14): App\Models\M_Ticket->getAllData()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-01-16 05:31:00 --> Error connecting to the database: Unknown database 'helpdesk-lpc1'
+CRITICAL - 2022-01-16 05:31:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'helpdesk-lpc1'
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(14): App\Models\M_Ticket->getAllData()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-16 05:43:34 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResultArray
+#0 C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 14)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(14): App\Models\M_Ticket->getAllData()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-16 05:43:46 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:45:00 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:45:01 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:45:25 --> Undefined variable $id_ticket
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:46:16 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:46:18 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:47:24 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:47:25 --> Undefined variable $i
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-16 05:52:04 --> Undefined array key "Solution"
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Ticket\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampps\\htdoc...', 35)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('ticket/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(19): view('ticket/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}

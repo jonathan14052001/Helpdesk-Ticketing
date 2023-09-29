@@ -1,0 +1,1 @@
+ERROR - 2022-01-25 21:57:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`helpdesk_lpc1`.`progress`, CONSTRAINT `progress_ibfk_1` FOREIGN KEY (`id_ticket`) REFERENCES `ticket` (`id`))

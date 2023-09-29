@@ -1,0 +1,101 @@
+CRITICAL - 2022-06-15 03:35:57 --> Too few arguments to function App\Controllers\Ticket::index(), 0 passed in C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-06-15 05:02:33 --> Call to a member function getError() on null
+#0 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->ubah()
+#1 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-06-15 05:05:09 --> Call to a member function getError() on null
+#0 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->ubah()
+#1 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-06-15 05:06:41 --> Call to a member function getName() on null
+#0 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->ubah()
+#1 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-06-15 05:08:35 --> Call to a member function getError() on null
+#0 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->ubah()
+#1 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-06-15 05:18:33 --> File not found: picture/image_ticket
+#0 C:\xampps\htdocs\helpdeskLPC11\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('picture/image_t...')
+#1 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('picture/image_t...', true)
+#2 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('picture/image_t...')
+#3 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Ticket.php(349): CodeIgniter\HTTP\Response->download('image_ticket', NULL)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->download('image_ticket')
+#5 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+CRITICAL - 2022-06-15 05:19:33 --> File not found: picture/image_ticket
+#0 C:\xampps\htdocs\helpdeskLPC11\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('picture/image_t...')
+#1 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('picture/image_t...', true)
+#2 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('picture/image_t...')
+#3 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Ticket.php(349): CodeIgniter\HTTP\Response->download('image_ticket', NULL)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->download('image_ticket')
+#5 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+CRITICAL - 2022-06-15 05:20:05 --> File not found: picture/image_ticket
+#0 C:\xampps\htdocs\helpdeskLPC11\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('picture/image_t...')
+#1 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('picture/image_t...', true)
+#2 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('picture/image_t...')
+#3 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Ticket.php(349): CodeIgniter\HTTP\Response->download('image_ticket', NULL)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->download('image_ticket')
+#5 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+CRITICAL - 2022-06-15 05:27:25 --> File not found: picture/image_ticket
+#0 C:\xampps\htdocs\helpdeskLPC11\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('picture/image_t...')
+#1 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('picture/image_t...', true)
+#2 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('picture/image_t...')
+#3 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Ticket.php(349): CodeIgniter\HTTP\Response->download('image_ticket', NULL)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->download('image_ticket')
+#5 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+CRITICAL - 2022-06-15 05:27:29 --> File not found: picture/image_ticket
+#0 C:\xampps\htdocs\helpdeskLPC11\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('picture/image_t...')
+#1 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('picture/image_t...', true)
+#2 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('picture/image_t...')
+#3 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Ticket.php(349): CodeIgniter\HTTP\Response->download('image_ticket', NULL)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->download('image_ticket')
+#5 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+CRITICAL - 2022-06-15 05:27:35 --> File not found: picture/image_ticket
+#0 C:\xampps\htdocs\helpdeskLPC11\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('picture/image_t...')
+#1 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('picture/image_t...', true)
+#2 C:\xampps\htdocs\helpdeskLPC11\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('picture/image_t...')
+#3 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Ticket.php(349): CodeIgniter\HTTP\Response->download('image_ticket', NULL)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Ticket->download('image_ticket')
+#5 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}

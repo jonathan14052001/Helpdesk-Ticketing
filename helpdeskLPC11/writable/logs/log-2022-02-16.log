@@ -1,0 +1,488 @@
+CRITICAL - 2022-02-16 00:52:39 --> Cannot access offset of type string on string
+#0 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include()
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(53): tampilan('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-16 19:51:19 --> Undefined variable $auth_groups
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 136)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(52): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 19:51:34 --> Undefined variable $auth_group
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 136)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(52): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 19:52:37 --> Attempt to read property "name" on array
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampps\\htdoc...', 137)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(52): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 19:54:41 --> Cannot use object of type stdClass as array
+#0 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include()
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(52): tampilan('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-16 20:00:02 --> Attempt to read property "name" on array
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampps\\htdoc...', 137)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(52): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+ERROR - 2022-02-16 20:05:53 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:05:53 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:08:28 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:08:28 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:08:31 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:08:31 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:10:14 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:10:14 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:14:57 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:14:57 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:15:00 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:15:00 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:15:58 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:15:58 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:16:00 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:16:00 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:16:03 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:16:03 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:17:09 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:17:09 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:17:12 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:17:12 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:18:22 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:18:22 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:18:25 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:18:25 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:41 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:41 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:46 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:46 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:47 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:47 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:47 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:47 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:48 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:48 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:48 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:48 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:20:48 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:20:48 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+CRITICAL - 2022-02-16 20:21:34 --> Call to undefined method App\Models\M_Authgroup::getAll
+#0 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\Model->__call('getAll', Array)
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#6 {main}
+ERROR - 2022-02-16 20:22:18 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:22:18 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+CRITICAL - 2022-02-16 20:22:36 --> Call to undefined method App\Models\M_Authgroup::getResult
+#0 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#6 {main}
+ERROR - 2022-02-16 20:24:00 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:24:00 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:24:03 --> Table 'helpdesk_lpc1.auth_groups_permissons' doesn't exist
+CRITICAL - 2022-02-16 20:24:03 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(39): CodeIgniter\BaseModel->findAll()
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-02-16 20:30:22 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:30:22 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:30:46 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:30:46 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:31:04 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:31:04 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:32:45 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:32:45 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:35:52 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:35:52 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:36:07 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:36:07 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:36:23 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:36:23 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+ERROR - 2022-02-16 20:37:43 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-02-16 20:37:43 --> Call to a member function getResult() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
+CRITICAL - 2022-02-16 20:47:14 --> Undefined property: stdClass::$id
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 96)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 20:47:48 --> Undefined property: stdClass::$id
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 96)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 20:48:39 --> Undefined property: stdClass::$id
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 73)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 20:50:02 --> Undefined property: stdClass::$id
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 73)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-02-16 20:51:14 --> Undefined property: stdClass::$id
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 98)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+ERROR - 2022-02-16 20:57:59 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 20:58:05 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 20:59:01 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 20:59:07 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:01:44 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:03:35 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:03:42 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:04:24 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:08:25 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:08:40 --> Unknown column 'userid' in 'where clause'
+ERROR - 2022-02-16 21:14:15 --> Unknown column 'userid' in 'where clause'
+CRITICAL - 2022-02-16 21:16:30 --> Cannot use object of type stdClass as array
+#0 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include()
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-16 21:17:14 --> Undefined property: stdClass::$password
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\admin\index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampps\\htdoc...', 121)
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('admin/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Admin.php(54): tampilan('admin/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+ERROR - 2022-02-16 21:31:30 --> Unknown column 'userid' in 'where clause'

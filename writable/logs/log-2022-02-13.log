@@ -1,0 +1,469 @@
+ERROR - 2022-02-13 20:43:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-13 20:43:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 20:44:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-13 20:44:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 20:44:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-13 20:44:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 20:44:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-13 20:44:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 20:53:03 --> Error connecting to the database: Unknown database 'helpdesk_lpc1'
+CRITICAL - 2022-02-13 20:53:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'helpdesk_lpc1'
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 20:53:07 --> Error connecting to the database: Unknown database 'helpdesk_lpc1'
+CRITICAL - 2022-02-13 20:53:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'helpdesk_lpc1'
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 20:54:00 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:54:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:54:03 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:54:03 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:54:04 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:54:04 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:56:43 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:56:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:56:45 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:56:45 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:57:00 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:57:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:58:00 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:58:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:58:04 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:58:04 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:58:10 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:58:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(49): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->tambah()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:59:53 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:59:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(49): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->tambah()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 20:59:54 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 20:59:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(49): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->tambah()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:00:26 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:00:26 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:00:27 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:00:27 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:00:32 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:00:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:04:21 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:04:21 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:04:27 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:04:27 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:07:23 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:07:23 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#7 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#14 {main}
+ERROR - 2022-02-13 21:07:34 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:07:34 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:09:31 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:09:31 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:11:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-13 21:11:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampps\htdocs\helpdeskLPC\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#5 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+ERROR - 2022-02-13 21:12:47 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:12:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:17:21 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:17:21 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:17:22 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:17:22 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:17:23 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:17:23 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:25:21 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:25:21 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:25:50 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+ERROR - 2022-02-13 21:25:50 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+ERROR - 2022-02-13 21:25:50 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+ERROR - 2022-02-13 21:25:50 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+ERROR - 2022-02-13 21:26:00 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:26:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptLogin()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:26:23 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:26:23 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptLogin()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:30:41 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:30:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('8')
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:32:06 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:32:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptLogin()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}
+ERROR - 2022-02-13 21:32:44 --> Table 'helpdesk_lpc1.users' doesn't exist in engine
+CRITICAL - 2022-02-13 21:32:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampps\htdocs\helpdeskLPC\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#2 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#3 C:\xampps\htdocs\helpdeskLPC\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptLogin()
+#5 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#9 {main}

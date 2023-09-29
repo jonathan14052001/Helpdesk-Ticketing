@@ -1,0 +1,37 @@
+CRITICAL - 2022-01-18 00:52:41 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php on line 19
+#0 C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php(19): CodeIgniter\Database\BaseBuilder->insert('<')
+#1 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(125): App\Models\M_Ticket->tambah('<')
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->hapus('<')
+#3 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#4 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#7 {main}
+ERROR - 2022-01-18 00:56:08 --> Unknown column 'id_ticket' in 'where clause'
+CRITICAL - 2022-01-18 00:56:08 --> Unknown column 'id_ticket' in 'where clause'
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ti...', 0)
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ti...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ti...')
+#3 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ti...', Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php(23): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(125): App\Models\M_Ticket->hapus('<')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->hapus('<')
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+ERROR - 2022-01-18 00:56:59 --> Unknown column 'id_ticket' in 'where clause'
+CRITICAL - 2022-01-18 00:56:59 --> Unknown column 'id_ticket' in 'where clause'
+#0 C:\xampps\htdocs\helpdeskLPC\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ti...', 0)
+#1 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ti...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ti...')
+#3 C:\xampps\htdocs\helpdeskLPC\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ti...', Array, false)
+#4 C:\xampps\htdocs\helpdeskLPC\app\Models\M_Ticket.php(23): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Ticket.php(125): App\Models\M_Ticket->hapus('<')
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->hapus('<')
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}

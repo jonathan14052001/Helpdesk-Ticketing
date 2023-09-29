@@ -1,0 +1,27 @@
+CRITICAL - 2022-02-17 20:25:42 --> require(dbconfig.php): Failed to open stream: No such file or directory
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Home\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(dbconfi...', 'C:\\xampps\\htdoc...', 22)
+#1 C:\xampps\htdocs\helpdeskLPC\app\Views\Home\index.php(22): require()
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#3 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#5 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('home/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Home.php(28): tampilan('home/index', Array)
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#12 {main}
+CRITICAL - 2022-02-17 20:28:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE status_ticket = 'success'' at line 1
+#0 C:\xampps\htdocs\helpdeskLPC\app\Views\Home\index.php(57): mysqli_query(Object(mysqli), 'SELECT id FROM ...')
+#1 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC\system\Helpers\sn_helper.php(7): view('home/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC\app\Controllers\Home.php(28): tampilan('home/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}

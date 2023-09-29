@@ -1,0 +1,26 @@
+CRITICAL - 2022-06-17 11:43:00 --> Undefined variable $pager
+#0 C:\xampps\htdocs\helpdeskLPC11\app\Views\Progress\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 42)
+#1 C:\xampps\htdocs\helpdeskLPC11\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC11\system\Common.php(1089): CodeIgniter\View\View->render('progress/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Helpers\sn_helper.php(7): view('progress/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Progress.php(85): tampilan('progress/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Progress->tambah()
+#7 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Progress))
+#8 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}
+CRITICAL - 2022-06-17 11:44:09 --> Undefined variable $pager
+#0 C:\xampps\htdocs\helpdeskLPC11\app\Views\Progress\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampps\\htdoc...', 42)
+#1 C:\xampps\htdocs\helpdeskLPC11\system\View\View.php(210): include('C:\\xampps\\htdoc...')
+#2 C:\xampps\htdocs\helpdeskLPC11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampps\htdocs\helpdeskLPC11\system\Common.php(1089): CodeIgniter\View\View->render('progress/index', Array, true)
+#4 C:\xampps\htdocs\helpdeskLPC11\system\Helpers\sn_helper.php(7): view('progress/index', Array)
+#5 C:\xampps\htdocs\helpdeskLPC11\app\Controllers\Progress.php(85): tampilan('progress/index', Array)
+#6 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(825): App\Controllers\Progress->tambah()
+#7 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Progress))
+#8 C:\xampps\htdocs\helpdeskLPC11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampps\htdocs\helpdeskLPC11\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampps\htdocs\helpdeskLPC11\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#11 {main}

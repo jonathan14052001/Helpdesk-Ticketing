@@ -1,0 +1,7 @@
+CRITICAL - 2022-01-21 01:15:22 --> Call to undefined function App\Controllers\tampilan()
+#0 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(825): App\Controllers\Ticket->index()
+#1 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ticket))
+#2 C:\xampps\htdocs\helpdeskLPC\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampps\htdocs\helpdeskLPC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampps\htdocs\helpdeskLPC\system\Commands\Server\rewrite.php(43): require_once('C:\\xampps\\htdoc...')
+#5 {main}
