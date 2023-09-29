@@ -17,7 +17,7 @@ class Pic extends BaseController{
     
     public function index()
     {
-        //jika belum login, user tidak memiliki akses
+        //jika belum login, user tidak memiliki akses hi
         if (!$this->auth->check())
 		{
 			$redirectURL = session('redirect_url') ?? site_url('/login');
